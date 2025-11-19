@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kali Conilleau-Girardot</title>
+    <link rel="icon" href="/images/logo/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    <!-- Bandeau de titre -->
+
+    <!-- Menu -->
+    <div class="menu-standard">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#tempete" onclick="showPage('tempete')">[1] Tempête : musique et vidéo (2025)</a></li>
+                <li><a href="#ensaama-fanzine-club" onclick="showPage('ensaama-fanzine-club')">[2] Ensaama Fanzine Club
+                    : musique et vidéo (2024)</a></li>
+                <li><a href="#déambulations-nocturnes" onclick="showPage('déambulations-nocturnes')">[3] "Déambulations
+                        Nocturnes", photographie et édition (2024)</a></li>
+                <li><a href="#vision" onclick="showPage('vision')">[4] Vision d'en Haut, musique et clip (2024)</a></li>
+                <li><a href="#stan smith" onclick="showPage('stan smith')">[5] Campagne Adidas Stan Smith (2024)</a>
+                </li>
+                <li><a href="#vélocité" onclick="showPage('vélocité')">[6] "vélocité", photographie (2024)</a>
+                </li>
+                <li><a href="#girl-power" onclick="showPage('girl-power')">[7] Arte - Girl Power (2024)</a></li>
+                <li><a href="#meet-your-legend" onclick="showPage('meet-your-legend')">[8] Meet Your Legend (2024)</a>
+                </li>
+                <li><a href="#etoffes" onclick="showPage('etoffes')">[9] "étoffes", photographie (2024)</a></li>
+                <li><a href="#ailleurs" onclick="showPage('ailleurs')">[10] "ailleurs", photographie (2024)</a></li>
+                <li><a href="#hs-fest" onclick="showPage('hs-fest')">[11] Festival Hors-Sujet - Gare XP (2024)</a></li>
+
+                <li><a href="#athens" onclick="showPage('athens')">[12] Athens, between Ancient and Contemporary Arts
+                        (2022)</a>
+                </li>
+                <li><a href="#screenprint" onclick="showPage('screenprint')">[13] Sérigraphie (2023/2024)</a></li>
+                <li><a href="#gravure" onclick="showPage('gravure')">[14] Gravure (2023/2024)</a></li>
+
+                <li><a href="#a-propos" onclick="showPage('a-propos')">À propos</a></li>
+                <div class="menu-credits">
+                    <p><br>développement: Kali Conilleau-Girardot</p>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="menu-mobile">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">[-]</a></li>
+                <li><a href="#tempete" onclick="showPage('tempete')">[1]</a></li>
+                <li><a href="#ensaama-fanzine-club" onclick="showPage('ensaama-fanzine-club')">[2]</a></li>
+                <li><a href="#déambulations-nocturnes" onclick="showPage('déambulations-nocturnes')">[3]</a></li>
+                <li><a href="#vision" onclick="showPage('vision')">[4]</a></li>
+                <li><a href="#stan smith" onclick="showPage('stan smith')">[5]</a></li>
+                <li><a href="#vélocité" onclick="showPage('vélocité')">[6]</a></li>
+                <li><a href="#girl-power" onclick="showPage('girl-power')">[7]</a></li>
+                <li><a href="#meet-your-legend" onclick="showPage('meet-your-legend')">[8]</a></li>
+                <li><a href="#etoffes" onclick="showPage('etoffes')">[9]</a></li>
+                <li><a href="#ailleurs" onclick="showPage('ailleurs')">[10]</a></li>
+                <li><a href="#hs-fest" onclick="showPage('hs-fest')">[11]</a></li>
+                <li><a href="#athens" onclick="showPage('athens')">[12]</a>
+                </li>
+                <li><a href="#screenprint" onclick="showPage('screenprint')">[13]</a></li>
+                <li><a href="#gravure" onclick="showPage('gravure')">[14]</a></li>
+                <li><a href="#a-propos" onclick="showPage('a-propos')">[À]</a></li>
+                <li><a href="#credits-page" onclick="showPage('credits-page')">[©]</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contenu -->
+    <!-- Page Accueil -->
+    <!-- <div id="accueil" class="page active">
+
+        <div class="image-accueil">
+            <img src="images/accueil/gif-bleu-rose.gif" alt="animation-accueil">
+        </div>
+
+    </div> -->
+
+    <div class="content">
+
+        <!-- clip vision d'en haut page -->
+        <div id="vision" class="page">
+            <p class="titre-page">Vision d'en Haut - création musicale et clip vidéo (en cours de création)</p>
+            <p class="texte-page">Création musicale personnelle (production, interprétation, enregistrement,
+                mastering).<br>Puis réalisation et tournage du clip en collaboration avec Anatole Gilbert.</p>
+            <div class="image-horizontale">
+                <img src="images/vision/stills/1.jpg" alt="still-1" onclick="openLightbox(this.src)">
+                <img src="images/vision/stills/2.jpg" alt="still-2" onclick="openLightbox(this.src)">
+                <img src="images/vision/stills/3.jpg" alt="still-3" onclick="openLightbox(this.src)">
+                <img src="images/vision/stills/4.jpg" alt="still-4" onclick="openLightbox(this.src)">
+            </div>
+        </div>
+
+        <!-- Page déambulations -->
+        <div id="déambulations-nocturnes" class="page">
+            <p class="titre-page deambulations-color">Déambulations Nocturnes - édition de photographies personnelles
+                (2024)</p>
+
+            <div class="image-horizontale">
+                <img id="couv-et-dos" src="images/déambulations/couv-et-dos.jpg" alt="couv-et-dos"
+                    onclick="openLightbox(this.src)" />
+            </div>
+
+            <div id="mosaique" class="image-horizontale">
+                <img src="images/déambulations/mosaïque.jpg" alt="photographies de toutes les pages de l'édition"
+                    onclick="openLightbox(this.src)">
+                <img id="20" src="images/déambulations/images-numeriques/20.jpg" alt="20"
+                    onclick="openLightbox(this.src)" />
+                <img id="slide-6" src="images/déambulations/6.jpg" alt="6" onclick="openLightbox(this.src)" />
+                <img id="23" src="images/déambulations/images-numeriques/23.jpg" alt="23"
+                    onclick="openLightbox(this.src)" />
+                <!-- <img id="slide-3" src="images/déambulations/3.jpg" alt="3" onclick="openLightbox(this.src)" /> -->
+                <img id="slide-5" src="images/déambulations/5.jpg" alt="5" onclick="openLightbox(this.src)" />
+
+            </div>
+
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" id="slide-7" src="images/déambulations/images-numeriques/7.jpg" alt="7"
+                    onclick="openLightbox(this.src)" />
+                <img class="standard" id="slide-8" src="images/déambulations/images-numeriques/8.jpg" alt="8"
+                    onclick="openLightbox(this.src)" />
+            </div>
+            <!-- mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" id="slide-7" src="images/déambulations/images-numeriques/7.jpg" alt="7"
+                    onclick="openLightbox(this.src)" />
+                <img class="mobile" id="slide-8" src="images/déambulations/images-numeriques/8.jpg" alt="8"
+                    onclick="openLightbox(this.src)" />
+            </div>
+        </div>
+
+        <!-- Page stan smith -->
+        <div id="stan smith" class="page">
+            <p class="stan-color titre-page">Campagne “make your own” Adidas Stan Smith (2024)</p>
+            <p class="stan-color texte-page">Création d'une campagne avec un déploiement large (expérience 360°) qui
+                permette
+                de vivre au mieux
+                des sensations avec Adidas Originals. J’ai imaginé la campagne “make your own” basée sur un évènement de
+                création ouvert à tous.
+
+            </p>
+            <p class="stan-color sous-titre">affiche</p>
+
+            <div id="mockup-stan-smith" class="image-horizontale">
+                <img src="images/stan smith/stan-smith-mockup.jpg" alt="mockup affiche"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-verticale">
+                <img src="images/stan smith/affiche.jpg" alt="affiche" onclick="openLightbox(this.src)">
+            </div>
+
+            <p class="stan-color texte-page">Chaussure Stan Smith découpée, simili-cuir, fil de laine.</p>
+
+            <p class="stan-color sous-titre">vidéo</p>
+
+            <p class="stan-color texte-page">La vidéo de promotion de la campagne a été réalisée en stop-motion. Elle
+                reprend le
+                processus de création
+                de l’affiche qui correspond à celui proposé lors l’évènement atelier de création de sa propre Stan
+                Smith.
+
+            </p>
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/K0Plm3nwmYI"></iframe>
+
+            <!-- <div id="vidéo_stan_smith" class="video">
+                <video src="vidéos/vidéo make your own.mp4" controls type="video/mp4"></video>
+            </div> -->
+
+            <p class="stan-color sous-titre">étapes de réalisation</p>
+
+            <!-- standard -->
+            <div class="etapes-realisation standard">
+                <img class="standard" src="images/stan smith/étapes de réalisation/1.jpg" alt="Étape 1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/stan smith/étapes de réalisation/2.jpg" alt="Étape 2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/stan smith/étapes de réalisation/3.jpg" alt="Étape 3"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/stan smith/étapes de réalisation/4.jpg" alt="Étape 4"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" src="images/stan smith/étapes de réalisation/1.jpg" alt="Étape 1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/stan smith/étapes de réalisation/2.jpg" alt="Étape 2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/stan smith/étapes de réalisation/3.jpg" alt="Étape 3"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/stan smith/étapes de réalisation/4.jpg" alt="Étape 4"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <p class="stan-color sous-titre">évènement</p>
+
+            <p id="evenement-texte" class="stan-color texte-page">L’évènement que j’ai imaginé est un atelier de création géant de sa propre
+                Stan Smith.
+                Tout le monde peut
+                venir y réaliser un modèle soi-même, donc collector, de la chaussure emblématique. Tout le nécessaire
+                est présent sur place : patrons, cuir, matériel de couture/perçage/collage, semelles, lassets.<br>
+                <br>
+                Il a lieu dans différents espaces verts des villes :<br>
+                - il y en a partout, le rendant facilement accessible pour beaucoup<br>
+                - le vert de ces espaces, associé à du mobilier blanc, permet de recréer la bichromie des Stan Smith
+            </p>
+            <div></div>
+
+            <!-- <div id="visuel_évènement" class="image-horizontale">
+                <img src="images/stan smith/jardin luxembourg.jpg" alt="visuel évènement make your own"
+                    onclick="openLightbox(this.src)">
+            </div> -->
+
+            <!-- <p class="stan-color">Jardin du Luxembourg, table et tabourets générés par IA</p> -->
+
+            
+        </div>
+
+        <!-- page fanzine club -->
+        <div id="ensaama-fanzine-club" class="page">
+            <p class="titre-page">Ensaama Fanzine Club : composition musicale et création vidéo (2024)</p>
+            <p class="texte-page">Logiciels : After Effects / FL Studio<br><br>
+                (vidéo déconseillée aux personnes photosensibles ou épilectiques)</p>
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/SCRe350RSAs"></iframe>
+
+            <!-- <div id="vidéo-fanzine-club" class="video">
+                <video src="vidéos/ensaama fanzine club vidéo.mp4" controls type="video/mp4"></video>
+            </div> -->
+
+            <p class="texte-page">Création d’une vidéo dans l’esthétique des GIF animés (logiciel: After Effects), pour
+                la communication
+                autour du Fanzine Club de l’ENSAAMA. J’ai choisi une esthétique numérique et digitale qui se rapporte à
+                l’univers des GIF animés.
+                <br><br>
+                J’ai composé la musique (logiciel: FL Studio) en jouant les différentes mélodies sur un clavier, relié à
+                des instruments virtuels qui correspondent à la direction artistique.
+                <br><br>
+                J’ai exploré les accumulations de texte ("ensaama fanzine club"), liées à l’idée des lignes de code. Je
+                les ai dupliquées,
+                superposées, modifiées de plusieurs manières pour obtenir des images/textures/fonds animés. Je me suis
+                servi de ces images animées comme d'éléments uniques, de superposition, de texture, de fond, mais aussi
+                comme habillage de texte. J’ai aussi utilisé des images de spectres audio et vidéo trouvés dans les
+                logiciels de montage et de création musicale que j’utilise.
+                <br><br>
+                Enfin, j’ai décidé de travailler avec des couleurs puissantes, que l’on peut obtenir seulement
+                numériquement, afin de créer l’esthétique voulue.
+            </p>
+
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" id="1" src="images/fanzine-club/stills-horizontal/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)" />
+                <img class="standard" id="2" src="images/fanzine-club/stills-horizontal/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)" />
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" id="1" src="images/fanzine-club/stills-horizontal/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)" />
+                <img class="mobile" id="2" src="images/fanzine-club/stills-horizontal/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)" />
+            </div>
+
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" id="3" src="images/fanzine-club/stills-horizontal/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)" />
+                <img class="standard" id="4" src="images/fanzine-club/stills-horizontal/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)" />
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" id="3" src="images/fanzine-club/stills-horizontal/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)" />
+                <img class="mobile" id="4" src="images/fanzine-club/stills-horizontal/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)" />
+            </div>
+
+            <!-- standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" id="8" src="images/fanzine-club/stills-horizontal/8.jpg" alt="8"
+                    onclick="openLightbox(this.src)" />
+                <img class="standard" id="11" src="images/fanzine-club/stills-horizontal/11.jpg" alt="11"
+                    onclick="openLightbox(this.src)" />
+                <img class="standard" id="12" src="images/fanzine-club/stills-horizontal/12.jpg" alt="12"
+                    onclick="openLightbox(this.src)" />
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" id="8" src="images/fanzine-club/stills-horizontal/8.jpg" alt="8"
+                    onclick="openLightbox(this.src)" />
+                <img class="mobile" id="11" src="images/fanzine-club/stills-horizontal/11.jpg" alt="11"
+                    onclick="openLightbox(this.src)" />
+                <img class="mobile" id="12" src="images/fanzine-club/stills-horizontal/12.jpg" alt="12"
+                    onclick="openLightbox(this.src)" />
+            </div>
+
+            <div class="image-horizontale">
+                <img id="slide-2" src="images/fanzine-club/fanzine/A.jpg" alt="A" onclick="openLightbox(this.src)" />
+            </div>
+
+            <div class="vertical-fanzine-club">
+                <img id="slide-1" src="images/fanzine-club/fanzine/F.jpg" alt="F" onclick="openLightbox(this.src)" />
+                <img id="slide-2" src="images/fanzine-club/fanzine/A.jpg" alt="A" onclick="openLightbox(this.src)" />
+                <img id="slide-3" src="images/fanzine-club/fanzine/N.jpg" alt="N" onclick="openLightbox(this.src)" />
+            </div>
+
+            <div class="etapes-realisation">
+                <img id="slide-4" src="images/fanzine-club/fanzine/Z.jpg" alt="Z" onclick="openLightbox(this.src)" />
+                <img id="slide-5" src="images/fanzine-club/fanzine/I.jpg" alt="I" onclick="openLightbox(this.src)" />
+                <img id="slide-6" src="images/fanzine-club/fanzine/N-2.jpg" alt="N-2"
+                    onclick="openLightbox(this.src)" />
+                <img id="slide-7" src="images/fanzine-club/fanzine/E.jpg" alt="E" onclick="openLightbox(this.src)" />
+            </div>
+
+
+            <p class="texte-page">Adaptation de la vidéo au format téléphone afin de la publier sur les réseaux
+                d’Ensaama Fanzine Club.
+            </p>
+
+            <!-- standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/fanzine-club/format-telephone/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/fanzine-club/format-telephone/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/fanzine-club/format-telephone/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/fanzine-club/format-telephone/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/fanzine-club/format-telephone/5.jpg" alt="5"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/fanzine-club/format-telephone/6.jpg" alt="6"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" src="images/fanzine-club/format-telephone/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/fanzine-club/format-telephone/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/fanzine-club/format-telephone/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-verticale mobile">
+                <img class="mobile" src="images/fanzine-club/format-telephone/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/fanzine-club/format-telephone/5.jpg" alt="5"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/fanzine-club/format-telephone/6.jpg" alt="6"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+        </div>
+
+        <!-- page étoffes -->
+        <div id="etoffes" class="page">
+
+            <div id="fourrure">
+                <img src="images/etoffes/2.jpg" alt="photo 2" onclick="openLightbox(this.src)">
+            </div>
+            <!-- <div id="tissus">
+                <img src="images/etoffes/1.jpg" alt="photo 1" onclick="openLightbox(this.src)">
+            </div> -->
+            <div id="rouleau-tissu">
+                <img src="images/etoffes/3.jpg" alt="photo 3" onclick="openLightbox(this.src)">
+            </div>
+            <div id="promo-tissu">
+                <img src="images/etoffes/4.jpg" alt="photo 4" onclick="openLightbox(this.src)">
+            </div>
+            <div id="personnage-tissu">
+                <img src="images/etoffes/5.jpg" alt="photo 5" onclick="openLightbox(this.src)">
+            </div>
+            <div id="tissu-flou">
+                <img src="images/etoffes/6.jpg" alt="photo 6" onclick="openLightbox(this.src)">
+            </div>
+            <div id="tissu-motifs">
+                <img src="images/etoffes/7.jpg" alt="photo 7" onclick="openLightbox(this.src)">
+            </div>
+            <div id="tissu-brillant">
+                <img src="images/etoffes/8.jpg" alt="photo 8" onclick="openLightbox(this.src)">
+            </div>
+            <div id="tissus-mystere">
+                <img src="images/etoffes/9.jpg" alt="photo 9" onclick="openLightbox(this.src)">
+            </div>
+            <div id="street-tissus">
+                <img src="images/etoffes/10.jpg" alt="photo 10" onclick="openLightbox(this.src)">
+            </div>
+
+        </div>
+
+        <!-- ailleurs page -->
+        <div id="ailleurs" class="page">
+
+            <!-- standard -->
+            <div class="image-horizontale standard">
+                <img id="anatole-1" class="standard" src="images/dent-de-jaman/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-verticale standard">
+                <img id="anatole-guerrier" class="standard" src="images/dent-de-jaman/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+                <img id="anatole-profil" class="standard" src="images/dent-de-jaman/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-horizontale standard">
+                <img id="anatole-montagne" class="standard" src="images/dent-de-jaman/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)">
+                <img id="anatole-cuisine" class="standard" src="images/dent-de-jaman/5.jpg" alt="5"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-verticale standard">
+                <img id="anatole-fourchette" class="standard" src="images/dent-de-jaman/6.jpg" alt="6"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/dent-de-jaman/1.jpg" alt="1" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/dent-de-jaman/2.jpg" alt="2" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/dent-de-jaman/3.jpg" alt="3" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/dent-de-jaman/4.jpg" alt="4" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/dent-de-jaman/5.jpg" alt="5" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/dent-de-jaman/6.jpg" alt="6" onclick="openLightbox(this.src)">
+            </div>
+        </div>
+
+
+        <!-- page meet your legend -->
+        <div id="meet-your-legend" class="page">
+            <p class="titre-page">Meet Your Legend : motion design et graphisme (2024)</p>
+            <p class="texte-page">Logiciels : After Effects / Premiere Pro / Illustrator</p>
+            <p class="texte-page">Stage de 2 semaines dans l'entreprise Meet Your Legend à Montpellier. Réalisation de
+                motion design, montage vidéo, graphisme et illustration.
+                <br><br><a href="https://meetyourlegend.com/">meetyourlegend.com</a>
+            </p>
+            <p class="sous-titre">Animation du logo</p>
+            <iframe class="yt-video" src="https://www.youtube.com/embed/cr8O0xRFJ_Q"></iframe>
+            <!-- <div id="anim-logo-principal" class="video">
+                <video src="vidéos/meet-your-legend/anim-logo-principal.mp4" controls type="video/mp4"></video>
+            </div> -->
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/ZTqzJ9C0BwI"></iframe>
+            <!-- <div id="anim-logo-3-lignes" class="video">
+                <video src="vidéos/meet-your-legend/anim-logo-3-lignes.mp4" controls type="video/mp4"></video>
+            </div> -->
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/l8znYFHkBm0"></iframe>
+            <!-- <div id="anim-logo-3-lignes-sound" class="video">
+                <video src="vidéos/meet-your-legend/anim-logo-3-lignes-sound.mp4" controls type="video/mp4"></video>
+            </div> -->
+            <p class="sous-titre">Montage vidéo</p>
+            <p class="texte-page">Montage d'un trailer pour une conférence organisée par Meet Your Legend.</p>
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/vpoEPJxZtSI"></iframe>
+            <!-- <div id="trailer-sous-la-seine" class="video">
+                <video src="vidéos/meet-your-legend/trailer-sous-la-seine.mp4" controls type="video/mp4"></video>
+            </div> -->
+        </div>
+
+        <!-- page vélocité -->
+        <div id="vélocité" class="page">
+
+            <!-- standard -->
+            <div class="image-verticale standard">
+                <img id="vélocité-3" class="standard" src="images/velocite/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-horizontale standard">
+                <img id="vélocité-4" class="standard" src="images/velocite/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)">
+                <img id="vélocité-5" class="standard" src="images/velocite/5.jpg" alt="5"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-verticale standard">
+                <img id="vélocité-2" class="standard" src="images/velocite/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+                <img id="vélocité-1" class="standard" src="images/velocite/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/velocite/3.jpg" alt="3" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/velocite/4.jpg" alt="4" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/velocite/5.jpg" alt="5" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/velocite/2.jpg" alt="2" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/velocite/1.jpg" alt="1" onclick="openLightbox(this.src)">
+            </div>
+        </div>
+
+        <!-- page HS Fest -->
+        <div id="hs-fest" class="page">
+            <p class="titre-page">Festival Hors-Sujet - Gare XP : affiches (2024)</p>
+            <p class="texte-page">Étude de cas de la Gare XP et du HS Fest, puis réalisation d’affiches pour ce
+                festival du film expérimental.</p>
+
+            <p class="sous-titre">propositions d'affiches</p>
+
+            <!-- images standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/hs-fest/affiches/affiche-1.jpg" alt="affiche-1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/affiches/affiche-2.jpg" alt="affiche-2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/affiches/affiche-3.jpg" alt="affiche-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- images mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" src="images/hs-fest/affiches/affiche-1.jpg" alt="affiche-1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/affiches/affiche-2.jpg" alt="affiche-2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/affiches/affiche-3.jpg" alt="affiche-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <p class="sous-titre">typographie expérimentale</p>
+            <!-- images standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/hs-fest/typo/finale/festival-sable.jpg" alt="typo-sable-1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/typo/finale/hs-sable.jpg" alt="typo-sable-2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/typo/finale/hs-mousse.jpg" alt="typo-sable-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- images mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" src="images/hs-fest/typo/finale/festival-sable.jpg" alt="typo-sable-1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/typo/finale/hs-sable.jpg" alt="typo-sable-2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/typo/finale/hs-mousse.jpg" alt="typo-sable-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <p class="sous-titre">photographies et projections</p>
+            <!-- images standard -->
+            <div class="deux-images standard">
+                <img class="standard" src="images/hs-fest/photos-et-projections/photo-2.jpg" alt="photo"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/photos-et-projections/photo-3.JPG" alt="photo"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- images mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" class="mobile" src="images/hs-fest/photos-et-projections/photo-2.jpg" alt="photo"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" class="mobile" src="images/hs-fest/photos-et-projections/photo-3.JPG" alt="photo"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <!-- images standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/hs-fest/photos-et-projections/projection-1.JPG" alt="projection-1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/photos-et-projections/projection-2.JPG" alt="projection-2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/photos-et-projections/photo-1.JPG" alt="projection-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <!-- images mobile -->
+            <div class="image-verticale mobile">
+                <img class="mobile" src="images/hs-fest/photos-et-projections/projection-1.JPG" alt="projection-1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/photos-et-projections/projection-2.JPG" alt="projection-2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/photos-et-projections/photo-1.JPG" alt="projection-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <!-- standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/hs-fest/planches/planche1.jpg" alt="planche-1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/planches/planche2.jpg" alt="planche-2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/hs-fest/planches/planche3.jpg" alt="planche-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/hs-fest/planches/planche1.jpg" alt="planche-1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/planches/planche2.jpg" alt="planche-2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/hs-fest/planches/planche3.jpg" alt="planche-3"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+        </div>
+
+        <!-- Girl Power page -->
+        <div id="girl-power" class="page">
+            <p class="titre-page">Arte - Girl Power (2024)</p>
+
+            <p class="texte-page">Logiciels : After Effects / Illustrator</p>
+
+            <p class="bold-text">projet fictif : </p>
+            <p class="texte-page">
+                Arte souhaite proposer une nouvelle mini-série culturelle au ton alternatif
+                "Girl Power" Libres comme Elles, pour poursuivre son entreprise
+                de féminisation de l'antenne en redonnant la visibilité méritée à ces femmes
+                remarquables, trop souvent invisibilisées, qui ont marqué l'histoire
+                et l'actualité par leurs engagements et leurs actions.
+            </p>
+            <p class="bold-text">conception de l’identité visuelle :</p>
+            <p class="texte-page">
+                - logo Girl Power, signature et bug antenne <br>
+                - générique d’ouverture <br>
+                - habillage de l'émission : titre et sous-titre de chaque épisode, synthés / légendes
+            </p>
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/tLa-AgvdaBg"></iframe>
+
+            <p class="texte-page">L'encre est porteuse d'expression,<br>
+                de messages,<br>
+                elle permet de laisser sa trace.
+            </p>
+
+            <div class="image-horizontale">
+                <img src="images/girl-power/ink-1.jpg" alt="ink-1" onclick="openLightbox(this.src)">
+            </div>
+
+            <!-- standard -->
+            <div class="vertical-fanzine-club standard">
+                <img class="standard" src="images/girl-power/1.jpg" alt="1" onclick="openLightbox(this.src)">
+                <img class="standard" src="images/girl-power/2.jpg" alt="2" onclick="openLightbox(this.src)">
+                <img class="standard" src="images/girl-power/3.jpg" alt="3" onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/girl-power/1.jpg" alt="1" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/girl-power/2.jpg" alt="2" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/girl-power/3.jpg" alt="3" onclick="openLightbox(this.src)">
+            </div>
+
+            <div class="image-horizontale"><img src="images/girl-power/ink-compo.jpg" alt="ink-composition"
+                    onclick="openLightbox(this.src)"></div>
+        </div>
+
+        <!-- Athens page -->
+        <div id="athens" class="page">
+            <p class="titre-page">Athens, between Ancient and Contemporary Arts (2022)</p>
+            <p class="sous-titre">reportage vidéo et photo</p>
+            <p class="texte-page">
+                En 2022, j’ai obtenu une bourse Zellidja de voyage me permettant de partir un
+                mois seul en Grèce pour réaliser un projet que j’avais imaginé et organisé
+                de A à Z.
+                <br><br>Je suis donc parti interviewer des graphistes (et artistes) à Athènes, ville partageant
+                arts antiques et contemporains, et ai réalisé un reportage vidéo et photo. Ce voyage m’a beaucoup
+                apporté : ouverture à une nouvelle culture, inspirations
+                artistiques, échanges riches, autonomie, rencontres d’autres voyageurs du monde
+                entier, acquisition de nouvelles connaissances...
+            </p>
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" src="images/athens/screen1.png" alt="1" onclick="openLightbox(this.src)">
+                <img class="standard" src="images/athens/screen2.png" alt="2" onclick="openLightbox(this.src)">
+            </div>
+            <div class="deux-images standard">
+                <img class="standard" src="images/athens/screen3.png" alt="3" onclick="openLightbox(this.src)">
+                <img class="standard" src="images/athens/screen4.png" alt="4" onclick="openLightbox(this.src)">
+            </div>
+            <div class="deux-images standard">
+                <img class="standard" src="images/athens/screen5.png" alt="5" onclick="openLightbox(this.src)">
+                <img class="standard" src="images/athens/screen6.png" alt="6" onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/athens/screen1.png" alt="1" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/athens/screen2.png" alt="2" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/athens/screen3.png" alt="3" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/athens/screen4.png" alt="4" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/athens/screen5.png" alt="5" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/athens/screen6.png" alt="6" onclick="openLightbox(this.src)">
+            </div>
+
+            <iframe class="yt-video" src="https://www.youtube.com/embed/vfwvJS_iU8M">
+            </iframe>
+
+        </div>
+
+
+        <!-- screenprint page -->
+        <div id="screenprint" class="page">
+            <p class="titre-page">Sérigraphie : création de visuels, préparation des cadres et impression (2023/2024)
+            </p>
+            <div class="image-horizontale">
+                <img src="images/screenprint/3.png" alt="3" onclick="openLightbox(this.src)">
+                <img src="images/screenprint/5.png" alt="5" onclick="openLightbox(this.src)">
+                <img src="images/screenprint/4.png" alt="4" onclick="openLightbox(this.src)">
+            </div>
+
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" src="images/screenprint/design-cadre.jpg" alt="design-cadre"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/screenprint/cadre.jpg" alt="cadre" onclick="openLightbox(this.src)">
+            </div>
+            <div class="deux-images standard">
+                <img class="standard" src="images/screenprint/print3.jpg" alt="3" onclick="openLightbox(this.src)">
+                <img class="standard" src="images/screenprint/print2.jpg" alt="2" onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/screenprint/design-cadre.jpg" alt="design-cadre"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/screenprint/cadre.jpg" alt="cadre" onclick="openLightbox(this.src)">
+            </div>
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/screenprint/print3.jpg" alt="3" onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/screenprint/print2.jpg" alt="2" onclick="openLightbox(this.src)">
+            </div>
+
+            <div class="image-horizontale">
+                <img src="images/screenprint/print1.jpg" alt="1" onclick="openLightbox(this.src)">
+                <img src="images/screenprint/print4.jpg" alt="4" onclick="openLightbox(this.src)">
+            </div>
+
+            <div class="image-verticale"><img src="images/screenprint/table.jpg" alt="table"
+                    onclick="openLightbox(this.src)"></div>
+        </div>
+
+        <!-- page lino -->
+        <div id="gravure" class="page">
+            <p class="titre-page">Linogravure et gravure sur plâtre (2023/2024)</p>
+
+            <p class="sous-titre">Fragmentation (linogravure)</p>
+
+            <div class="image-horizontale">
+                <img src="images/linogravure/fragmentation/tout.jpg" alt="fragmentation"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" src="images/linogravure/fragmentation/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/linogravure/fragmentation/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/linogravure/fragmentation/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/linogravure/fragmentation/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" src="images/linogravure/fragmentation/porte2.jpg" alt="installation-1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/linogravure/fragmentation/porte1.jpg" alt="installation-1"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/linogravure/fragmentation/porte2.jpg" alt="installation-1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/linogravure/fragmentation/porte1.jpg" alt="installation-1"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <p class="sous-titre">Fanzine (linogravure)</p>
+            <!-- standard -->
+            <div class="deux-images standard">
+                <img class="standard" src="images/linogravure/mini-edition/couv-dos.jpg" alt="couverture-et-dos"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/linogravure/mini-edition/poster1.jpg" alt="poster-1"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/linogravure/mini-edition/couv-dos.jpg" alt="couverture-et-dos"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/linogravure/mini-edition/poster1.jpg" alt="poster-1"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- standard -->
+            <div class="etapes-realisation">
+                <img class="standard" src="images/linogravure/mini-edition/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/linogravure/mini-edition/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/linogravure/mini-edition/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)">
+                <img class="standard" src="images/linogravure/mini-edition/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)">
+            </div>
+            <!-- mobile -->
+            <div class="image-horizontale mobile">
+                <img class="mobile" src="images/linogravure/mini-edition/1.jpg" alt="1"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/linogravure/mini-edition/2.jpg" alt="2"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/linogravure/mini-edition/3.jpg" alt="3"
+                    onclick="openLightbox(this.src)">
+                <img class="mobile" src="images/linogravure/mini-edition/4.jpg" alt="4"
+                    onclick="openLightbox(this.src)">
+            </div>
+
+            <p class="sous-titre">Gravure sur plâtre</p>
+            <div class="image-horizontale">
+                <img src="images/linogravure/coquillages/poster-coquillages.jpg" alt="poster"
+                    onclick="openLightbox(this.src)">
+                <img src="images/linogravure/coquillages/tampon.jpg" alt="tampon" onclick="openLightbox(this.src)">
+            </div>
+
+        </div>
+
+
+        <!-- a propos page -->
+        <div id="a-propos" class="page">
+            <p class="texte-page">kaliconilleaugirardot@gmail.com <br>+33 6 11 68 23 73</p>
+            <div class="image-verticale">
+                <img src="images/a-propos/cv.jpg" alt="CV" onclick="openLightbox(this.src)">
+            </div>
+        </div>
+
+        <!-- crédits page -->
+        <div id="credits-page" class="page">
+            <p class="texte-page">développement du site :<br> Kali Conilleau-Girardot</p>
+        </div>
+        <!-- Autres pages... -->
+
+        <!-- tempête page -->
+        <div id="tempete" class="page active">
+            <p class="titre-page">Tempête : composition musicale et création vidéo (2025)</p>
+            <p class="texte-page">Logiciels : FL Studio / Premiere Pro / After Effects</p>
+            <iframe class="yt-video" src="https://www.youtube.com/embed/cWbQcQVaoXM"></iframe>
+        </div>
+
+    </div>
+
+    <!-- <script>
+        let currentSlide = 0;
+
+        function showPage(pageId) {
+            var pages = document.querySelectorAll('.page');
+            pages.forEach(function (page) {
+                page.classList.remove('active');
+            });
+            var selectedPage = document.getElementById(pageId);
+            selectedPage.classList.add('active');
+        }
+
+        function moveSlide(step) {
+            const slides = document.querySelectorAll('.carousel img');
+            currentSlide = (currentSlide + step + slides.length) % slides.length;
+            const offset = -currentSlide * 100;
+            document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
+        }
+    </script> -->
+
+    <!-- Lightbox container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="">
+    </div>
+
+    <!-- Script JavaScript pour le portfolio et la lightbox -->
+    <script>
+        // Fonction pour afficher une page
+        function showPage(pageId) {
+            var pages = document.querySelectorAll('.page');
+            pages.forEach(function (page) {
+                page.classList.remove('active');
+            });
+            var selectedPage = document.getElementById(pageId);
+            selectedPage.classList.add('active');
+        }
+
+
+        // Fonction pour naviguer dans le carousel
+        function moveSlide(step) {
+            const slides = document.querySelectorAll('.carousel img');
+            currentSlide = (currentSlide + step + slides.length) % slides.length;
+            const offset = -currentSlide * 100;
+            document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
+        }
+
+        // Remonter en haut de la page
+        window.scrollTo(0, 0);
+
+        // Fonction pour ouvrir la lightbox
+        function openLightbox(src) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = src;
+            lightbox.style.display = 'flex';
+        }
+
+        // Fonction pour fermer la lightbox
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuLinks = document.querySelectorAll('.menu ul li a');
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    // Supprime l'ancienne classe active
+                    menuLinks.forEach(link => link.classList.remove('active'));
+                    // Ajoute la classe active au lien cliqué
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
